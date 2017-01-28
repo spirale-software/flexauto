@@ -1,0 +1,626 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3c6feee9-376d-4775-8241-ece28b7f2039" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/slider/auto1.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/slider/auto2.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/images/slider/auto3.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Controller/AdminController.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DAO/AutoDAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DAO/AutoEquipementDAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DAO/DAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DAO/EquipementDAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DAO/ImageDAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/DAO/UserDAO.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/Auto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/CompleteAuto.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/Equipement.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/Image.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Domain/User.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/Manager/AutoManager.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Form/Type/AutoType.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminViews/allAutos.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminViews/auto_form.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminViews/dashboard.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminViews/detailAuto.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminViews/editAuto.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/adminViews/layout_admin.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/views/publicViews/login.html.twig" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/web/css/admin_layout.css" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="flexauto" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="HomeController.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="765">
+              <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+              <folding>
+                <element signature="e#38#60#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routes.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/routes.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="374">
+              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AutoDAO.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/DAO/AutoDAO.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="327">
+              <caret line="49" column="63" lean-forward="false" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+              <folding>
+                <marker date="1485595035322" expanded="true" signature="646:691" ph="SELECT * FRO... t_auto" />
+                <marker date="1485595035322" expanded="true" signature="1066:1111" ph="SELECT * FRO... t_auto" />
+                <marker date="1485595035322" expanded="true" signature="1491:1529" ph="SELECT * FRO... t_auto" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/publicViews/index.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="325">
+              <caret line="57" column="96" lean-forward="false" selection-start-line="57" selection-start-column="96" selection-end-line="57" selection-end-column="96" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="layout.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/views/publicViews/layout.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="385">
+              <caret line="138" column="24" lean-forward="true" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>service</find>
+      <find>recent</find>
+      <find>recent-work</find>
+      <find>overl</find>
+      <find>over</find>
+      <find>h2</find>
+      <find>recent-work-inner</find>
+      <find>overlay</find>
+      <find>recent-work-wrap</find>
+      <find>register</find>
+      <find>share</find>
+      <find>POST</find>
+      <find>getRequest</find>
+      <find>convertAutoInAssociativeArray</find>
+      <find>autoId</find>
+      <find>convertImageObjectInAssociativeArray</find>
+      <find>top-nu</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>convertAutoObjectInAssociativeArray</replace>
+      <replace>autoId</replace>
+      <replace>$autoId</replace>
+      <replace>getImageObjectAsAssociativeArray</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/views/a_propos.html.twig" />
+        <option value="$PROJECT_DIR$/app/config/prod.php" />
+        <option value="$PROJECT_DIR$/../camafret/src/controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/views/index.html.twig" />
+        <option value="$PROJECT_DIR$/views/services.html.twig" />
+        <option value="$PROJECT_DIR$/web/css/admin_layout.css" />
+        <option value="$PROJECT_DIR$/views/dashboard.html.twig" />
+        <option value="$PROJECT_DIR$/views/login.html.twig" />
+        <option value="$PROJECT_DIR$/views/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/controller/AdminController.php" />
+        <option value="$PROJECT_DIR$/src/controller/HomeController.php" />
+        <option value="$PROJECT_DIR$/src/domain/User.php" />
+        <option value="$PROJECT_DIR$/web/index.php" />
+        <option value="$PROJECT_DIR$/src/DAO/MediaDAO.php" />
+        <option value="$PROJECT_DIR$/src/DAO/UserDAO.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Media.php" />
+        <option value="$PROJECT_DIR$/src/Domain/User.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Equipement.php" />
+        <option value="$PROJECT_DIR$/src/DAO/DAO.php" />
+        <option value="$PROJECT_DIR$/views/auto_form.html.twig" />
+        <option value="$PROJECT_DIR$/src/Form/Type/AutoType.php" />
+        <option value="$PROJECT_DIR$/src/Domain/Image.php" />
+        <option value="$PROJECT_DIR$/src/Form/Manager/AutoManager.php" />
+        <option value="$PROJECT_DIR$/src/DAO/AutoEquipement.php" />
+        <option value="$PROJECT_DIR$/app/app.php" />
+        <option value="$PROJECT_DIR$/views/allAutos.html.twig" />
+        <option value="$PROJECT_DIR$/views/layout_admin.html.twig" />
+        <option value="$PROJECT_DIR$/views/adminViews/auto_form.html.twig" />
+        <option value="$PROJECT_DIR$/views/adminViews/dashboard.html.twig" />
+        <option value="$PROJECT_DIR$/views/publicViews/login.html.twig" />
+        <option value="$PROJECT_DIR$/views/publicViews/a_propos.html.twig" />
+        <option value="$PROJECT_DIR$/views/publicViews/services.html.twig" />
+        <option value="$PROJECT_DIR$/src/Domain/Auto.php" />
+        <option value="$PROJECT_DIR$/views/adminViews/editAuto.html.twig" />
+        <option value="$PROJECT_DIR$/src/Domain/CompleteAuto.php" />
+        <option value="$PROJECT_DIR$/src/DAO/ImageDAO.php" />
+        <option value="$PROJECT_DIR$/src/DAO/AutoEquipementDAO.php" />
+        <option value="$PROJECT_DIR$/views/publicViews/testFile.txt" />
+        <option value="$PROJECT_DIR$/views/publicViews/sendEmail.php" />
+        <option value="$PROJECT_DIR$/views/publicViews/contact.html.twig" />
+        <option value="$PROJECT_DIR$/src/Controller/AdminController.php" />
+        <option value="$PROJECT_DIR$/views/adminViews/detailAuto.html.twig" />
+        <option value="$PROJECT_DIR$/src/DAO/EquipementDAO.php" />
+        <option value="$PROJECT_DIR$/web/css/main.css" />
+        <option value="$PROJECT_DIR$/views/adminViews/layout_admin.html.twig" />
+        <option value="$PROJECT_DIR$/views/adminViews/allAutos.html.twig" />
+        <option value="$PROJECT_DIR$/views/publicViews/index.html.twig" />
+        <option value="$PROJECT_DIR$/views/publicViews/layout.html.twig" />
+        <option value="$PROJECT_DIR$/src/DAO/AutoDAO.php" />
+        <option value="$PROJECT_DIR$/app/routes.php" />
+        <option value="$PROJECT_DIR$/src/Controller/HomeController.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="-8" />
+    <option name="y" value="-8" />
+    <option name="width" value="1382" />
+    <option name="height" value="744" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="publicViews" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Controller" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="flexauto" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.jetbrains.php.projectView.PhpTreeStructureProvider$1" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="Scratches" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../golden_ivory_awards" />
+    <property name="js.eslint.eslintPackage" value="" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\flexauto\web\images\services" />
+      <recent name="C:\xampp\htdocs\flexauto\views\publicViews" />
+      <recent name="C:\xampp\htdocs\flexauto\views\adminViews" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\xampp\htdocs\flexauto\web\images" />
+      <recent name="C:\xampp\htdocs\flexauto\web" />
+      <recent name="C:\xampp\htdocs\flexauto\web\css" />
+      <recent name="C:\xampp\htdocs\flexauto\web\images\slider" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JavaScript Debug.AutoManager.php">
+    <configuration default="false" name="flexauto" type="PHPUnitRunConfigurationType" factoryName="PHPUnit" temporary="true">
+      <TestRunner directory="$PROJECT_DIR$" />
+      <method />
+    </configuration>
+    <configuration default="false" name="AutoManager.php" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/flexauto/src/Form/Manager/AutoManager.php">
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" path-to-node="project" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="PHPUnitRunConfigurationType" factoryName="PHPUnit">
+      <TestRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpBehatConfigurationType" factoryName="Behat">
+      <BehatRunner />
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
+      <method />
+    </configuration>
+    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
+      <PhpTestRunnerSettings />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run-script" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="mocha-javascript-test-runner" factoryName="Mocha">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <working-directory />
+      <pass-parent-env>true</pass-parent-env>
+      <envs />
+      <ui />
+      <extra-mocha-options />
+      <test-kind>DIRECTORY</test-kind>
+      <test-directory />
+      <recursive>false</recursive>
+      <method />
+    </configuration>
+    <list size="2">
+      <item index="0" class="java.lang.String" itemvalue="PHPUnit.flexauto" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.AutoManager.php" />
+    </list>
+    <recent_temporary>
+      <list size="2">
+        <item index="0" class="java.lang.String" itemvalue="JavaScript Debug.AutoManager.php" />
+        <item index="1" class="java.lang.String" itemvalue="PHPUnit.flexauto" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3c6feee9-376d-4775-8241-ece28b7f2039" name="Default" comment="" />
+      <created>1480710654195</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1480710654195</updated>
+      <workItem from="1480710655376" duration="1536000" />
+      <workItem from="1480712471130" duration="9415000" />
+      <workItem from="1480931874207" duration="4718000" />
+      <workItem from="1482138249868" duration="16559000" />
+      <workItem from="1482225357934" duration="11813000" />
+      <workItem from="1482238216069" duration="30050000" />
+      <workItem from="1484568377379" duration="21289000" />
+      <workItem from="1484717065321" duration="4769000" />
+      <workItem from="1484769491758" duration="11530000" />
+      <workItem from="1484860914844" duration="5420000" />
+      <workItem from="1484917285161" duration="25572000" />
+      <workItem from="1485000633839" duration="30028000" />
+      <workItem from="1485184053465" duration="7336000" />
+      <workItem from="1485272702206" duration="5258000" />
+      <workItem from="1485590921787" duration="3275000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="188568000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16764276" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3287879" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="3" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/web/images/vente_auto.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/tab2.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/tab1.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/Opel_Corsa.JPG">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/renault.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/map.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/image_bg.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/depannage.jpg" />
+    <entry file="file://$PROJECT_DIR$/web/images/contact.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/client3.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/client1.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/588270c25b84f.jpeg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/ico/apple-touch-icon-57-precomposed.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/ico/apple-touch-icon-72-precomposed.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/ico/favicon.ico">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/ico/apple-touch-icon-144-precomposed.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/partners/partner1.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/partners/partner2.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/partners/partner3.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/partners/partner4.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/partners/partner5.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/partners/partner_bg.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/full/item1.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/full/item2.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/full/item3.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/full/item4.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/full/item5.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/full/item6.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/full/item7.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/full/item8.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/recent/item2.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/portfolio/recent/item3.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_rounded/btnNext.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_rounded/btnPrevious.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_rounded/contentPattern.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_rounded/default_thumbnail.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_rounded/loader.gif" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_rounded/sprite.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_square/contentPattern.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_square/btnPrevious.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/dark_square/btnNext.png" />
+    <entry file="file://$PROJECT_DIR$/web/images/prettyPhoto/facebook/btnPrevious.png" />
+    <entry file="file://$PROJECT_DIR$/src/Controller/AdminController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="535">
+          <caret line="150" column="5" lean-forward="true" selection-start-line="128" selection-start-column="4" selection-end-line="150" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/client2.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/web/images/search_icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Domain/CompleteAuto.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="25" lean-forward="false" selection-start-line="25" selection-start-column="12" selection-end-line="25" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/publicViews/layout.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="385">
+          <caret line="138" column="24" lean-forward="true" selection-start-line="138" selection-start-column="24" selection-end-line="138" selection-end-column="24" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/views/publicViews/index.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="325">
+          <caret line="57" column="96" lean-forward="false" selection-start-line="57" selection-start-column="96" selection-end-line="57" selection-end-column="96" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/DAO/AutoDAO.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="327">
+          <caret line="49" column="63" lean-forward="false" selection-start-line="49" selection-start-column="63" selection-end-line="49" selection-end-column="63" />
+          <folding>
+            <marker date="1485595035322" expanded="true" signature="646:691" ph="SELECT * FRO... t_auto" />
+            <marker date="1485595035322" expanded="true" signature="1066:1111" ph="SELECT * FRO... t_auto" />
+            <marker date="1485595035322" expanded="true" signature="1491:1529" ph="SELECT * FRO... t_auto" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Controller/HomeController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="22" lean-forward="false" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+          <folding>
+            <element signature="e#38#60#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/routes.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

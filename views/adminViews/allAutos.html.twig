@@ -1,0 +1,46 @@
+{% extends "adminViews/layout_admin.html.twig" %}
+
+{% block title %} Tous les autos {% endblock %}
+
+{% block content %}
+
+    <div class="well">
+        <table class="table table-striped">
+            <tr>
+                <th> </th>
+                <th>Marque</th>
+                <th>Modèle</th>
+                <th>Année</th>
+                <th> </th>
+            </tr>
+
+            {% for completeAuto in completeAutos %}
+                <tr>
+                    <td><img src="{{ app.request.basepath }}/images/{{ completeAuto.defaultImage.pathname }}" width="100"></td>
+                    <td>{{ completeAuto.auto.marque }}</td>
+                    <td>{{ completeAuto.auto.modele }}</td>
+                    <td>{{ completeAuto.auto.annee }}</td>
+                    <td>
+                        <a href= "{{ path('detailAuto', {'idAuto':completeAuto.auto.idAuto}) }}">
+                            <button class="btn btn-info" type="button">Détail</button>
+                        </a>
+                        <a href = "{{ path('editAuto', {'idAuto':completeAuto.auto.idAuto}) }}">
+                            <button class="btn btn-warning" type="button">Modifier</button>
+                        </a>|
+                        <a href = "{{ path('deleteAuto', {'idAuto':completeAuto.auto.idAuto}) }}" >
+                            <button class="btn btn-primary" type="button">En vente</button>
+                        </a>
+                    </td>
+                </tr>
+            {% endfor %}
+        </table>
+
+        <nav aria-label="...">
+            <ul class="pager">
+                <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Précédant</a></li>
+                <li class="next"><a href="#">Suivant <span aria-hidden="true">&rarr;</span></a></li>
+            </ul>
+        </nav>
+    </div>
+
+{% endblock %}

@@ -1,0 +1,148 @@
+{% extends "publicViews/layout.html.twig" %}
+
+{% block content %}
+
+    <section id="main-slider" class="no-margin">
+        <div class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#main-slider" data-slide-to="0" class="active"></li>
+                <li data-target="#main-slider" data-slide-to="1"></li>
+                <li data-target="#main-slider" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner" style="max-height: 500px">
+
+                <div class="item active"
+                     style="background-image: url( {{ app.request.basepath }}/images/slider/auto1.jpg)">
+                    <div class="well" style="width: 200px; left: 100px; top:100px; position: absolute; opacity: 0.8">
+                        Opel Corsa<br>
+                        2.000 euros<br>
+                        100.000 KM<br>
+                        Année 2011
+
+                        <p><a class="btn btn-primary btn-lg" href="#" role="button">Détail...</a></p>
+                    </div>
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url({{ app.request.basepath }}/images/slider/auto2.jpg)">
+                </div><!--/.item-->
+
+                <div class="item" style="background-image: url({{ app.request.basepath }}/images/slider/auto3.jpg)">
+                </div><!--/.item-->
+            </div><!--/.carousel-inner-->
+        </div><!--/.carousel-->
+        <a class="prev hidden-xs" href="#main-slider" data-slide="prev">
+            <i class="fa fa-chevron-left"></i>
+        </a>
+        <a class="next hidden-xs" href="#main-slider" data-slide="next">
+            <i class="fa fa-chevron-right"></i>
+        </a>
+    </section><!--/#main-slider-->
+
+    <section id="recent-works">
+        <div class="container">
+
+            <div class="center wow fadeInDown">
+                <h2>Voitures d'occasions</h2>
+            </div>
+
+            <div class="row">
+
+                {% for completeAuto in arrayOfCompleteAutos %}
+
+                    <div class="col-sm-4 col-md-3">
+                        <div class="thumbnail">
+                            <a href="#"><img class="img-responsive" src="{{ app.request.basepath }}/images/{{ completeAuto.defaultImage.pathname }}"
+                                             width="290" alt=""></a>
+                            <div class="caption">
+                                <a href="#">
+                                    {{ completeAuto.auto.marque }} {{  completeAuto.auto.version }} | Année: {{ completeAuto.auto.annee }}
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                {% endfor %}
+
+            </div><!--/.row-->
+
+                <a href="#"> Voir toutes nos offres</a>
+
+            </div><!--/.container-->
+        </div>
+    </section><!--/#recent-works-->
+
+    <section id="services" class="service-item" style="opacity: 0.9">
+        <div class="container">
+            <div class="center wow fadeInDown">
+                <h2 style="color:#A9A9A9">Nos Services</h2>
+            </div>
+
+            <div class="row">
+
+                <div class="col-sm-6 col-md-6">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="{{ app.request.basepath }}/images/services/vente.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Vente et achat de voitures d'occasion</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="{{ app.request.basepath }}/images/services/reparation.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Réparation automobile</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="{{ app.request.basepath }}/images/services/depannage.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Dépannage</h3>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-sm-6 col-md-6">
+                    <div class="media services-wrap wow fadeInDown">
+                        <div class="pull-left">
+                            <img class="img-responsive" src="{{ app.request.basepath }}/images/services/piece.png">
+                        </div>
+                        <div class="media-body">
+                            <h3 class="media-heading">Vente pièces détachées</h3>
+                        </div>
+                    </div>
+                </div>
+
+            </div><!--/.row-->
+        </div><!--/.container-->
+    </section><!--/#services-->
+
+    <section id="conatcat-info">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="media contact-info wow fadeInDown" data-wow-duration="1000ms" data-wow-delay="600ms">
+                        <div class="pull-left">
+                            <i class="fa fa-phone"></i>
+                        </div>
+                        <div class="media-body">
+                            <h2>Avez vous une question ou sollicitez vous plus de renseignements?</h2>
+                            <p>Contacter nous au (+32) 055 55 55 55</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div><!--/.container-->
+    </section><!--/#conatcat-info-->
+
+{% endblock %}

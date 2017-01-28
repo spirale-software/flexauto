@@ -1,0 +1,158 @@
+{% extends "adminViews/layout_admin.html.twig" %}
+
+{% block title %} Ajout auto {% endblock %}
+
+{% block content %}
+    <style>
+        label
+        {
+            padding-left: 5px;
+            padding-right: 25px;
+        }
+    </style>
+    <div style="height: 30px"></div>
+    {% for flashMessage in app.session.flashbag.get('success') %}
+        <div class="alert alert-success">
+            {{ flashMessage }}
+        </div>
+    {% endfor %}
+
+    {{ form_start(auto_form, { 'attr' : {'class':'form-horizontal'}}) }}
+    <div class="form-group">
+        <div class="col-sm-4">
+            {{ form_label(auto_form.marque) }}<br>
+            {{ form_widget(auto_form.marque, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.marque) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.modele) }}<br>
+            {{ form_widget(auto_form.modele, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.modele) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.version) }}<br>
+            {{ form_widget(auto_form.version, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.version) }}
+        </div>
+    </div> <hr class="divider">
+
+    <div class="form-group">
+        <div class="col-sm-4">
+            {{ form_label(auto_form.carburant) }}<br>
+            {{ form_widget(auto_form.carburant, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.carburant) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.transmission) }}<br>
+            {{ form_widget(auto_form.transmission, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.transmission) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.puissance) }}<br>
+            {{ form_widget(auto_form.puissance, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.puissance) }}
+        </div>
+    </div> <hr class="divider">
+
+    <div class="form-group">
+        <div class="col-sm-4">
+            {{ form_label(auto_form.prix) }}<br>
+            {{ form_widget(auto_form.prix, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.prix) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.kilometrage) }}<br>
+            {{ form_widget(auto_form.kilometrage, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.kilometrage) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.annee) }}<br>
+            {{ form_widget(auto_form.annee, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.annee) }}
+        </div>
+    </div> <hr class="divider">
+
+    <div class="form-group">
+        <div class="col-sm-4">
+            {{ form_label(auto_form.couleurExt) }}<br>
+            {{ form_widget(auto_form.couleurExt, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.couleurExt) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.nbPortes) }}<br>
+            {{ form_widget(auto_form.nbPortes, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.nbPortes) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.nbSieges) }}<br>
+            {{ form_widget(auto_form.nbSieges, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.nbSieges) }}
+        </div>
+    </div> <hr class="divider">
+
+    <div class="form-group">
+        <div class="col-sm-4">
+            {{ form_label(auto_form.airbag) }}<br>
+            {{ form_widget(auto_form.airbag, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.airbag) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.climatisation) }}<br>
+            {{ form_widget(auto_form.climatisation, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.climatisation) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_label(auto_form.equipInt) }}<br>
+            {{ form_widget(auto_form.equipInt, {'attr': {'class':'form-control'}}) }}
+            {{ form_errors(auto_form.equipInt) }}
+        </div>
+    </div> <hr class="divider">
+
+    <div>
+        {{ form_label(auto_form.equipements) }}<br>
+        {{ form_widget(auto_form.equipements, {'attr' : {'style': 'padding-left:10px'}}) }}
+        {{ form_errors(auto_form.equipements) }}
+    </div> <hr class="divider">
+
+
+    <div class="form-group">
+        <div class="col-sm-4">
+            {{ form_label(auto_form.description) }}
+            {{ form_errors(auto_form.description) }}
+        </div>
+        <div class="col-sm-4">
+            {{ form_widget(auto_form.description, {'attr': {'class':'form-control'}}) }}
+        </div>
+    </div> <hr class="divider">
+
+
+    <div>
+        <div class="form-group">
+            <label class="col-sm-1">{{ form_label(auto_form.photo1) }}</label>
+            <div class="col-sm-10">
+               {{ form_widget(auto_form.photo1) }}
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-1">{{ form_label(auto_form.photo2) }}</label>
+            <div class="col-sm-10">
+                {{ form_widget(auto_form.photo2) }}
+            </div>
+        </div>
+        <div class="form-group">
+            <label class="col-sm-1">{{ form_label(auto_form.photo3) }}</label>
+            <div class="col-sm-10">
+                {{ form_widget(auto_form.photo3) }}
+            </div>
+        </div>
+    </div>
+
+    <div class="form-group">
+        <div class="col-sm-offset-4 col-sm-3">
+            <input type="submit" class="btn btn-primary" value="enregistrer" />
+        </div>
+    </div>
+
+    {{ form_end(auto_form) }}
+
+{% endblock %}
